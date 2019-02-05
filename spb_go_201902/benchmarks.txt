@@ -1,16 +1,16 @@
 goos: linux
 goarch: amd64
-BenchmarkNonBufChan-4           	   10000	    184965 ns/op	       0 B/op	       0 allocs/op
-BenchmarkBuferizedChan-4        	   20000	     93028 ns/op	       0 B/op	       0 allocs/op
-BenchmarkGenerateCallback-4     	  100000	     13552 ns/op	       0 B/op	       0 allocs/op
-BenchmarkGenerateAtomicChan-4   	100000000	        14.2 ns/op	       0 B/op	       0 allocs/op
-BenchmarkGetIface-4             	 5000000	       308 ns/op	       0 B/op	       0 allocs/op
-BenchmarkGetFile-4              	 5000000	       318 ns/op	       0 B/op	       0 allocs/op
-BenchmarkRegexpNotCompile-4     	   30000	     51975 ns/op	   43840 B/op	      66 allocs/op
-BenchmarkRegexpCompile-4        	   30000	     42013 ns/op	     704 B/op	      16 allocs/op
-BenchmarkFindEnglishWords-4     	  200000	      7652 ns/op	     496 B/op	       5 allocs/op
-BenchmarkReplaceGo-4            	  100000	     13432 ns/op	    2304 B/op	       1 allocs/op
-BenchmarkStringReplaceGo-4      	  500000	      2152 ns/op	    9216 B/op	       4 allocs/op
-BenchmarkDumbReplaceGo-4        	   10000	    177358 ns/op	  665488 B/op	    1182 allocs/op
+BenchmarkNonBufChan-4           	   10000	    184994 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBuferizedChan-4        	   20000	     94043 ns/op	       0 B/op	       0 allocs/op
+BenchmarkGenerateCallback-4     	  100000	     13640 ns/op	       0 B/op	       0 allocs/op
+BenchmarkGenerateAtomicChan-4   	100000000	        14.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkGetIface-4             	   20000	     61508 ns/op	       0 B/op	       0 allocs/op
+BenchmarkGetFile-4              	   30000	     57197 ns/op	       0 B/op	       0 allocs/op
+BenchmarkRegexpNotCompile-4     	   30000	     54423 ns/op	   43840 B/op	      66 allocs/op
+BenchmarkRegexpCompile-4        	   30000	     43703 ns/op	     704 B/op	      16 allocs/op
+BenchmarkFindEnglishWords-4     	  200000	      8082 ns/op	     496 B/op	       5 allocs/op
+BenchmarkReplaceGo-4            	  100000	     13852 ns/op	    2304 B/op	       1 allocs/op
+BenchmarkStringReplaceGo-4      	  500000	      2318 ns/op	    9216 B/op	       4 allocs/op
+BenchmarkDumbReplaceGo-4        	   10000	    194297 ns/op	  665488 B/op	    1182 allocs/op
 PASS
-ok  	_/home/t0pep0/meetup/go-2019.02-spb/presentation/spb_go_201902	21.124s
+ok  	_/home/t0pep0/meetup/go-2019.02-spb/presentation/spb_go_201902	22.151s
