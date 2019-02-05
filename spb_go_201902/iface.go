@@ -1,25 +1,14 @@
 package main
 
 import (
+	"io"
 	"os"
 )
 
-import (
-	"io"
-)
-
-type Iface struct {
-	io.Reader
-	io.ReaderAt
-	io.Seeker
-	io.Writer
-	io.WriterAt
-}
-
 func GetIface(rwc io.ReadWriteCloser) {
-	_ = rwc
+	rwc.Read([]byte{})
 }
 
 func GetFile(f *os.File) {
-	_ = f
+	f.Read([]byte{})
 }
